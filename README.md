@@ -8,8 +8,8 @@
 </p>
 
 <p align="center">
-  <a href="https://www.curseforge.com/minecraft/mc-mods/megambits-jjkcraft"><img src="https://img.shields.io/badge/CurseForge-download-F16436?logo=curseforge&logoColor=white" alt="CurseForge"></a>
-  <!-- MODRINTH: <a href="https://modrinth.com/mod/SLUG"><img src="https://img.shields.io/badge/Modrinth-download-00AF5C?logo=modrinth&logoColor=white" alt="Modrinth"></a> -->
+  <a href="https://www.curseforge.com/minecraft/mc-mods/cursed-awakening-jjk"><img src="https://img.shields.io/curseforge/dt/1537795?logo=curseforge&label=CurseForge&color=F16436" alt="CurseForge"></a>
+  <a href="https://modrinth.com/mod/cursed-awakening-jjk"><img src="https://img.shields.io/badge/Modrinth-download-00AF5C?logo=modrinth&logoColor=white" alt="Modrinth"></a>
   <img src="https://img.shields.io/badge/Minecraft-1.21.1-62B47A" alt="Minecraft 1.21.1">
   <img src="https://img.shields.io/badge/Fabric-0.18.4+-DBD0B4" alt="Fabric">
   <a href="https://github.com/Megambit-mc/cursed-awakening/wiki"><img src="https://img.shields.io/badge/Wiki-read-1f6feb" alt="Wiki"></a>
@@ -45,7 +45,7 @@
 
 ## 📥 Download and install
 
-**Download:** [CurseForge](https://www.curseforge.com/minecraft/mc-mods/megambits-jjkcraft)
+**Download:** [CurseForge](https://www.curseforge.com/minecraft/mc-mods/cursed-awakening-jjk) · [Modrinth](https://modrinth.com/mod/cursed-awakening-jjk)
 
 | | Version |
 |---|---|
