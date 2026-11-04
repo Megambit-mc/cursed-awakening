@@ -19,6 +19,10 @@
   <a href="README.md">English</a> · <b>Español</b>
 </p>
 
+<p align="center">
+  ✅ Versión actual: <b>1.5.0 — The Awakening Update</b> · 🛠️ En desarrollo: <b>1.6.0 — The Arsenal Update</b>
+</p>
+
 ---
 
 <!-- Capturas: guarda las imágenes en .github/assets/ y quita el comentario.
@@ -38,10 +42,19 @@
 - **Vasija Potencial:** recibe a un espíritu anfitrión —**Sukuna** (comiendo sus dedos), Ryu Ishigori, Uraume, el Ángel, Yorozu, Uro, Kenjaku o Kashimo— y usa su técnica… hasta que toma el control.
 - **Seis jefes** con su estructura y su versión guardián: Satoru Gojo, Ryomen Sukuna, Suguru Geto, Kenjaku, Toji Fushiguro y Yuta Okkotsu.
 - **Maldiciones catástrofe** (Jogo, Hanami, Dagon, Mahito) y **40 espíritus malditos** con modelo propio, además de **hechiceros NPC** que usan las mismas técnicas que tú.
-- **Armas de la serie en 3D** a escala real, herramientas malditas, equipo de cobre y amatista, comida maldita y rituales.
+- **Herramientas malditas** de la serie, equipo de cobre y amatista, comida maldita y rituales.
 - **Interfaz propia:** HUD, tarjetas de estado y la Pantalla del Hechicero (**K**) con las cifras de cada habilidad. En español e inglés.
 
 👉 Todo explicado en la **[Wiki](https://github.com/Megambit-mc/cursed-awakening/wiki/Inicio)**.
+
+## 🛠️ Llega en la 1.6 — The Arsenal Update
+En desarrollo, puede cambiar:
+- **Todas las armas rehechas en 3D** a escala real, y nuevas de la serie: la naginata de Maki, la Espada Negra de Megumi, la katana de Miwa, el revólver de Mai, el arco de Kamo, los clavos de Nobara…
+- **Jefes en tres fases** con movimientos propios; Dagon nace de un capullo.
+- **Cambiar de habilidad más rápido** (G mantenida + rueda, Z mantenida para las Artes) sin teclas nuevas.
+- **Nueva economía de energía maldita**, Mega Mechamaru pilotable, objetos nuevos y más.
+
+Ver [Versiones](https://github.com/Megambit-mc/cursed-awakening/wiki/Versiones) y el [changelog](CHANGELOG.md).
 
 ## 📥 Descarga e instalación
 
@@ -68,8 +81,8 @@ Todas las teclas se cambian en *Opciones → Controles → JJK*.
 |---|---|
 | **V** | Usar la habilidad seleccionada (pulsar, mantener para cargar o mantener activa) |
 | **G** / **Shift + G** | Siguiente / anterior habilidad |
-| **G mantenida + rueda** | Recorrer tus habilidades |
-| **Z** | Cambiar de lista: Técnica ↔ Artes · **Z mantenida**: usar tus Artes un momento |
+| **G mantenida + rueda** 🆕 1.6 | Recorrer tus habilidades |
+| **Z** | Cambiar de lista: Técnica ↔ Artes · 🆕 1.6: **Z mantenida** para usar tus Artes un momento |
 | **R** | Reforzamiento |
 | **C** / **Shift + C** (mantener) | Técnica Inversa propia / sobre otro |
 | **X** (mantener) | Sensing |
@@ -84,6 +97,7 @@ Más en **[Controles](https://github.com/Megambit-mc/cursed-awakening/wiki/Contr
 
 - `/gamerule jjkTerrainDamage false` desactiva toda la destrucción de terreno de las técnicas.
 - Todo el balance está en `config/jjk.json` (se crea al arrancar); `/ce config reload` lo recarga.
+- Todos los comandos `/ce` (solo operadores) están en **[Comandos](https://github.com/Megambit-mc/cursed-awakening/wiki/Comandos)**.
 - Más en la **[Guía para servidores](https://github.com/Megambit-mc/cursed-awakening/wiki/Guia-para-servidores)**.
 
 ## 🐛 Errores, ideas y arte

@@ -19,6 +19,10 @@
   <b>English</b> · <a href="README_ES.md">Español</a>
 </p>
 
+<p align="center">
+  ✅ Current version: <b>1.5.0 — The Awakening Update</b> · 🛠️ In development: <b>1.6.0 — The Arsenal Update</b>
+</p>
+
 ---
 
 <!-- Screenshots: put the images in .github/assets/ and uncomment.
@@ -38,10 +42,19 @@
 - **Potential Vessel:** receive a host spirit — **Sukuna** (eat his fingers), Ryu Ishigori, Uraume, the Angel, Yorozu, Uro, Kenjaku or Kashimo — and use their technique… until they take over.
 - **Six bosses** with their own structures and Guardian versions: Satoru Gojo, Ryomen Sukuna, Suguru Geto, Kenjaku, Toji Fushiguro and Yuta Okkotsu.
 - **Disaster curses** (Jogo, Hanami, Dagon, Mahito) and **40 cursed spirits** with their own models, plus **sorcerer NPCs** that use the same techniques as you.
-- **Weapons from the series in 3D** at real size, cursed tools, copper and amethyst gear, cursed food and rituals.
+- **Cursed tools** from the series, copper and amethyst gear, cursed food and rituals.
 - **Your own interface:** HUD, status cards and the Sorcerer Screen (**K**) with every ability's numbers. English and Spanish.
 
 👉 Everything explained in the **[Wiki](https://github.com/Megambit-mc/cursed-awakening/wiki)**.
+
+## 🛠️ Coming in 1.6 — The Arsenal Update
+In development, subject to change:
+- **Every weapon redone in 3D** at real-life size, plus new ones from the series: Maki's naginata, Megumi's Black Sword, Miwa's katana, Mai's revolver, Kamo's bow, Nobara's nails…
+- **Bosses in three phases** with signature moves; Dagon is born from a cocoon.
+- **Faster ability switching** (hold G + scroll, hold Z for Arts) with no new keys.
+- **A new cursed energy economy**, pilotable Mega Mechamaru, new items and more.
+
+See [Versions](https://github.com/Megambit-mc/cursed-awakening/wiki/Versions) and the [changelog](CHANGELOG.md).
 
 ## 📥 Download and install
 
@@ -68,8 +81,8 @@ All keys can be changed in *Options → Controls → JJK*.
 |---|---|
 | **V** | Use the selected ability (tap, hold to charge, or hold to keep it on) |
 | **G** / **Shift + G** | Next / previous ability |
-| **Hold G + scroll** | Browse your abilities |
-| **Z** | Switch list: Technique ↔ Arts · **hold Z** to use your Arts for a moment |
+| **Hold G + scroll** 🆕 1.6 | Browse your abilities |
+| **Z** | Switch list: Technique ↔ Arts · 🆕 1.6: **hold Z** to use your Arts for a moment |
 | **R** | Reinforcement |
 | **C** / **Shift + C** (hold) | Reverse Technique on yourself / on someone else |
 | **X** (hold) | Sensing |
@@ -84,6 +97,7 @@ More in **[Controls](https://github.com/Megambit-mc/cursed-awakening/wiki/Contro
 
 - `/gamerule jjkTerrainDamage false` turns off all terrain damage from techniques.
 - Every balance value is in `config/jjk.json` (created on first start); `/ce config reload` reloads it.
+- Every `/ce` command (operators only) is in **[Commands](https://github.com/Megambit-mc/cursed-awakening/wiki/Commands)**.
 - More in the **[Server guide](https://github.com/Megambit-mc/cursed-awakening/wiki/Server-Guide)**.
 
 ## 🐛 Bugs, ideas and art
