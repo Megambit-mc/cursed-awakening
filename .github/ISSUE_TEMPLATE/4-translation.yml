@@ -1,0 +1,27 @@
+name: 🌐 Translation / Traducción
+description: A text is wrong, untranslated or could be better · Un texto está mal, sin traducir o se puede mejorar
+labels: ["translation", "needs triage"]
+body:
+  - type: dropdown
+    id: language
+    attributes:
+      label: Language / Idioma
+      options:
+        - English
+        - Español
+        - Other (new language) / Otro (idioma nuevo)
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current text and where it appears / Texto actual y dónde aparece
+      description: A screenshot helps · Una captura ayuda.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Your proposal / Tu propuesta
+    validations:
+      required: true

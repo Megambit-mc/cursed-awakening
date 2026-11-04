@@ -1,0 +1,62 @@
+name: 💥 Crash
+description: The game or the server closes · El juego o el servidor se cierra
+labels: ["crash", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The crash report is in the `crash-reports` folder of your game (or server). Upload it to https://mclo.gs and paste the link.
+        El informe está en la carpeta `crash-reports` del juego (o del servidor). Súbelo a https://mclo.gs y pega el enlace.
+  - type: input
+    id: mod-version
+    attributes:
+      label: Mod version / Versión del mod
+      placeholder: "1.5.0"
+    validations:
+      required: true
+  - type: input
+    id: loader
+    attributes:
+      label: Fabric Loader and Fabric API versions / Versiones de Fabric Loader y Fabric API
+    validations:
+      required: true
+  - type: dropdown
+    id: when
+    attributes:
+      label: When does it crash? / ¿Cuándo se cierra?
+      options:
+        - On startup / Al abrir el juego
+        - Joining a world or server / Al entrar a un mundo o servidor
+        - Using an ability / Al usar una habilidad
+        - Fighting a boss or curse / Peleando contra un jefe o maldición
+        - Other / Otro
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Where? / ¿Dónde?
+      options:
+        - Singleplayer / Un jugador
+        - LAN
+        - Dedicated server / Servidor dedicado
+    validations:
+      required: true
+  - type: input
+    id: crash-report
+    attributes:
+      label: Crash report (mclo.gs link) / Informe del crash (enlace de mclo.gs)
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What were you doing? / ¿Qué estabas haciendo?
+    validations:
+      required: true
+  - type: textarea
+    id: mods
+    attributes:
+      label: Other mods installed / Otros mods instalados
+    validations:
+      required: true

@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💡 Idea / Sugerencia
+    url: https://github.com/Megambit-mc/cursed-awakening/discussions/categories/ideas
+    about: Share ideas in Discussions so others can vote · Comparte ideas en Discussions para que otros voten.
+  - name: ❓ Help / Ayuda
+    url: https://github.com/Megambit-mc/cursed-awakening/discussions/categories/q-a
+    about: Questions about how something works · Preguntas sobre cómo funciona algo.
+  - name: 🎨 Art / Arte
+    url: https://github.com/Megambit-mc/cursed-awakening/discussions/categories/art
+    about: Share models, textures, sounds or fan art · Comparte modelos, texturas, sonidos o fan art.
+  - name: 📖 Wiki
+    url: https://github.com/Megambit-mc/cursed-awakening/wiki
+    about: Guides, controls and mechanics · Guías, controles y mecánicas.

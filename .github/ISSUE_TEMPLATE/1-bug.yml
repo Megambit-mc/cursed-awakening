@@ -1,0 +1,93 @@
+name: 🐛 Bug report / Reportar un error
+description: Something doesn't work as it should · Algo no funciona como debería
+labels: ["bug", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting! Please search [existing issues](https://github.com/Megambit-mc/cursed-awakening/issues?q=is%3Aissue) first.
+        ¡Gracias por avisar! Busca primero si [ya está reportado](https://github.com/Megambit-mc/cursed-awakening/issues?q=is%3Aissue).
+        **Did the game close?** Use the *Crash* template instead · **¿Se cerró el juego?** Usa la plantilla *Crash*.
+  - type: input
+    id: mod-version
+    attributes:
+      label: Mod version / Versión del mod
+      description: Shown in the file name (jjk-1.5.0.jar) or in Mod Menu · Sale en el nombre del archivo o en Mod Menu.
+      placeholder: "1.5.0"
+    validations:
+      required: true
+  - type: input
+    id: loader
+    attributes:
+      label: Fabric Loader and Fabric API versions / Versiones de Fabric Loader y Fabric API
+      placeholder: "Loader 0.18.4 · API 0.116.17+1.21.1"
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Where does it happen? / ¿Dónde pasa?
+      options:
+        - Singleplayer / Un jugador
+        - LAN
+        - Dedicated server / Servidor dedicado
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area / Área
+      options:
+        - Technique / Técnica
+        - Domain Expansion / Expansión de Dominio
+        - Jujutsu Arts (Reinforcement, RCT, Black Flash…) / Artes Jujutsu
+        - Boss or structure / Jefe o estructura
+        - Cursed spirit / Espíritu maldito
+        - Sorcerer NPC / Hechicero NPC
+        - Shikigami or summon / Shikigami o invocación
+        - Item or weapon / Objeto o arma
+        - Progression (level, stats, grade, origin) / Progresión
+        - HUD, Sorcerer Screen or controls / HUD, pantalla K o controles
+        - Visuals or animations / Visuales o animaciones
+        - Sound / Sonido
+        - Other / Otro
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened? / ¿Qué pasó?
+      description: Include the technique or ability name if relevant · Incluye el nombre de la técnica o habilidad si aplica.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce / Pasos para reproducirlo
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect? / ¿Qué esperabas?
+  - type: textarea
+    id: mods
+    attributes:
+      label: Other mods installed / Otros mods instalados
+      description: Paste your mods folder list, or write "none" · Pega la lista de tu carpeta mods o escribe «ninguno».
+    validations:
+      required: true
+  - type: textarea
+    id: log
+    attributes:
+      label: Log
+      description: |
+        Upload `logs/latest.log` to https://mclo.gs and paste the link, or drag the file here.
+        Sube `logs/latest.log` a https://mclo.gs y pega el enlace, o arrastra el archivo aquí.
+  - type: textarea
+    id: media
+    attributes:
+      label: Screenshots or video / Capturas o video

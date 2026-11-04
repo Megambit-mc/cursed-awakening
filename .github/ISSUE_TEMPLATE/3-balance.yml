@@ -1,0 +1,63 @@
+name: ⚖️ Balance
+description: Something is too strong, too weak, too expensive or too slow · Algo es muy fuerte, muy débil, muy caro o muy lento
+labels: ["balance", "needs triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Balance reports help most with numbers: your grade, stats and what you saw in the Sorcerer Screen (**K**).
+        Los reportes de balance ayudan más con cifras: tu grado, tus stats y lo que ves en la Pantalla del Hechicero (**K**).
+  - type: input
+    id: mod-version
+    attributes:
+      label: Mod version / Versión del mod
+      placeholder: "1.5.0"
+    validations:
+      required: true
+  - type: input
+    id: ability
+    attributes:
+      label: Technique or ability / Técnica o habilidad
+      placeholder: "Limitless → Hollow Purple"
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: The problem / El problema
+      options:
+        - Too strong / Muy fuerte
+        - Too weak / Muy débil
+        - Costs too much CE / Cuesta demasiada CE
+        - Cooldown too long / Enfriamiento muy largo
+        - Takes too long to unlock / Tarda demasiado en desbloquearse
+        - Other / Otro
+    validations:
+      required: true
+  - type: input
+    id: profile
+    attributes:
+      label: Your grade, level and Mastery / Tu grado, nivel y Maestría
+      placeholder: "G2 · Lv 35 · M5"
+  - type: dropdown
+    id: against
+    attributes:
+      label: Against / Contra
+      options:
+        - Players (PvP) / Jugadores
+        - Cursed spirits / Espíritus malditos
+        - Sorcerer NPCs / Hechiceros NPC
+        - Bosses / Jefes
+        - Not relevant / No aplica
+  - type: textarea
+    id: details
+    attributes:
+      label: What did you notice? / ¿Qué notaste?
+      description: Numbers help (hits to kill, damage, seconds) · Las cifras ayudan (golpes para matar, daño, segundos).
+    validations:
+      required: true
+  - type: textarea
+    id: config
+    attributes:
+      label: Changed config? / ¿Config cambiada?
+      description: If the server changed `config/jjk.json`, say which values · Si el servidor cambió `config/jjk.json`, di qué valores.
