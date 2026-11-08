@@ -1,8 +1,67 @@
 # Changelog
 
-## 1.6.0 — The Arsenal Update (in development)
+## 1.7.0 — The Cursed Update (in development)
 
 ### ✨ New
+- **Uzumaki** shows its damage with 10 Grade 1 curses too, not only with 10 Grade 3.
+- **More curses everywhere:** Grade 4 and 3 curses now spawn 50 % more often, show up more in daylight, and more of them can gather nearby (day and night). Crawling Curses and Grade 4 Cursed Spirits come in bigger groups, and pack curses sometimes spawn as a whole nest of their kind.
+- **Cursed biomes are full of curses:** the new biomes now spawn their own curses much more often. The Cursed Wasteland spawns every curse three times as often, even in daylight; the Residue Marsh is full of water curses (with a rare Eso or Kechizu), the Cedar Forest of moths, umbrellas and hanged curses (rarely Tamamo-no-Mae), the Primeval Forest of roaches, centipedes and Ko-Guy (rarely Kurourushi), the Volcanic Slopes of Crushing Hulks and Great Cursed Birds (rarely Akuro-o) and the Disaster Reef of drowned curses and squids. More curses can gather in these biomes at once.
+- **CE Tanks work together:** tanks that touch form one storage of up to 27 (a 3 × 3 × 3 cube), filling from the bottom up. Each tank shows how full it is in 5 steps and glows brighter the fuller it gets, a comparator reads the whole group, holding right-click keeps pouring your CE in, and breaking a tank moves its energy into the rest of the group instead of losing it. Puppets and the Puppeteer's Table draw from the group (Mega Mechamaru takes 1000 CE from it).
+- **Exorcism Record:** every type of curse you exorcise (or help exorcise, or absorb with Curse Manipulation) is written into your Record, with a chat notice the first time. Curse gestation will only let you grow types from your Record. Operators: `/ce exorcism`.
+- **Cursed Residue:** what's left after exorcising a curse. Grade 4 and 3 curses drop it (Grade 2 sometimes). It's the material for curse gestation.
+- **Curse gestation:** every curse type you exorcise goes into your Exorcism Record. Build a **Gestation Altar** (3 Cursed Residue, 2 amethyst shards, a CE Tank and 3 polished deepslate), pick a curse you know, and it takes the CE from the tanks within 8 blocks plus the materials: a Grade 4 curse costs 3000 CE and 6 residues and takes 20 minutes, a Grade 3 one costs 6000 CE, 10 residues and a Soul Core and takes 40. Time runs with the world clock, even if you're away. You get a **Curse Orb**: break it and the curse becomes your companion (one at a time); sneak + right-click your companion to turn it back into an orb. Geto skips the wait, pays 40 % less CE and can gestate up to Grade 1.
+- **New looks for gestation:** CE Tanks have a window showing the blue CE inside, swirling and bubbling, at 5 fill levels, and tanks placed together look like one big tank (one copper frame around the group, one continuous window); the Gestation Altar has its own model (deepslate pedestal, copper-banded pillar, ritual cradle and amethyst crystals); the Curse Orb is a 3D black sphere with a purple swirl, and Cursed Residue has its own icon.
+- **Weapon fixes:** Mei Mei's axe and Megumi's Black Sword are now held with the edge facing down instead of up, the Split Soul Katana no longer turns the wrong way when held in the off hand, and Mai's revolver icon in the inventory now points the right way and fits its slot.
+- **Special Grade curses get their own domains:** the Smallpox Deity's **Graveyard** (its coffin becomes a sure-hit that even Infinity can't stop, and it traps you again after you escape), Kurourushi's **Plague Nest** (more cockroaches climb on you every second, each one adding damage), Tamamo-no-Mae's **Shrine of the Nine Foxes** (fox fire, nausea and an illusion that turns you around), Akuro-o's **Oni Fortress** (earthquakes that lift you and slam you down) and Ganesha's **Temple of Obstacles**, an open domain with no barrier that keeps launching everything that isn't huge into the sky. The generic Special Grade curse keeps the Cursed Womb.
+- **Curse domains are decorated inside:** rows of gravestones, sotoba tablets and shrouded corpses in the Graveyard; cockroach piles and rusty pipes in the Plague Nest; nine red torii, fox-fire lanterns and fox statues in the Shrine of the Nine Foxes; boulders, stalagmites and bone heaps in the Oni Fortress. Ganesha's Temple of Obstacles now raises a small temple with an elephant idol behind him: **break it and the domain collapses**. All the new pieces are also creative-only building blocks.
+- **Exorcism Record in K:** a new **Record** tab lists every curse by grade, with the ones you know by name (marked if you can gestate them) and the rest as «???». The Gestation Altar now shows a progress view while it gestates (the orb, a progress bar and the time left, updated every second); click the orb when it's ready to take it.
+- **Geto swallows Curse Orbs:** as Curse Manipulation, breaking a Curse Orb puts that curse in your storage (and in your Exorcism Record) instead of making it your companion.
+- **Companion curse** (ready for the Curse Orb): a Grade 4 or 3 curse that follows you and fights what you attack and what attacks you, using its own moves. It grows with you like a summon, needs no cursed energy to keep, heals slowly out of combat and keeps its tamed temperament (a coward hides behind you when hurt, a glutton devours what falls near it). Only one at a time; it leaves and comes back with you when you log out, follows you between dimensions and waits for you if you die. If it dies, it's lost.
+
+- **Six new biomes where curses are born** (curses are born from human fear; each biome is a fear). They appear in new chunks, inside vanilla biomes:
+  - **Cursed Wasteland:** grey-violet grass, dead trees, ash and dark fog, rare inside plains, forests and taigas.
+  - **Residue Marsh:** black-green water and mud in the heart of swamps and mangroves.
+  - **Cedar Forest:** tall Japanese cedars, ferns and light mist, like the mountains around the Jujutsu school.
+  - **Primeval Forest:** giant trees, moss and spores deep in jungles.
+  - **Volcanic Slopes:** basalt, blackstone, tuff, basalt columns, lava deltas and falling ash.
+  - **Disaster Reef:** dead coral and dark water inside warm oceans.
+- **Curse Nests:** small abandoned buildings (a wooden house, a stone warehouse or a ruined roadside shrine) with a chest and a **Residue Core** inside. The core keeps spawning curses while a player is near, until you break it (it drops Cursed Residue). Nests get stronger the farther they are from world spawn (Grade 4 up to Grade 1) and are much more common, and one grade stronger, in the Cursed Wasteland and the Residue Marsh.
+- **Seven new places full of curses:**
+  - **Roadside shrines** in cedar and other forests, with a small torii and an offering chest (sometimes a Seal Talisman).
+  - **Sugisawa High School:** curses inside at night, and on the roof the giant curse drawn by a sealed Sukuna's finger (5% chance in the rooftop chest).
+  - **Abandoned hospitals:** the urban curses (Slit-Mouthed Woman, Shoulder Curse, Hostage Curse, Floating Eye).
+  - **Cursed cemeteries:** graves, a mausoleum, hanged curses and moths, guarded by a **Gashadokuro**.
+  - **Yasohachi Bridge** over rivers, guarded by **Eso** (who brings his brother Kechizu).
+  - **Eishu Reformatory:** rows of identical cells guarded by the **Finger Bearer**, with a guaranteed Sukuna's finger.
+  - **Sealing altars:** a pillar wrapped in talismans with a Sukuna's finger on top; Grade 3-2 curses gather around it.
+- **Special Grade places:**
+  - **Nine Foxes Shrine** in cedar forests and cherry groves: a path of red torii, fox-fire lanterns and a hall guarded by **Tamamo-no-Mae**.
+  - **Disaster lairs**, where the four Disaster Curses can now awaken besides their old spots: **Jogo's crater** in the Volcanic Slopes, **Hanami's hollow tree** in the Primeval Forest, **Dagon's sunken ruin** in the Disaster Reef and **Mahito's sewers** underground (at any time of day).
+- **Maki Zen'in now lives in the world:** she can appear during the day near Special Grade players (instead of Gojo, sometimes), and she guards her own structure, the **Zen'in Clan Estate**: a walled compound with a main hall, a raked gravel courtyard, a pond, a training ground and the clan's **armory** (with a chest of cursed tools). Wake her at the altar as a Special Grade sorcerer; beat her for a guardian chest full of Zen'in weapons.
+### ⚖️ Balance
+- **Summons with a lot of health are no longer nearly indestructible:** they keep only part of your toughness the more health they have (Mahoraga, Agito, Max Elephant…), so strong techniques like Hollow Purple take them down in a couple of hits (Mahoraga from a Special Grade owner: about 3 Hollow Purples). Summons with 200 health or less keep their full toughness. Rika follows the same rule: still the toughest summon, but no longer near-immortal. So do Geto's released curses and your curse companion (a Special Grade curse released by a Special Grade Geto now falls to about 3 Hollow Purples instead of 7). Ritual shikigami are unchanged.
+- **Mahito's 0.2-second domain** (Shift + Self-Embodiment of Perfection) now has its own 60 s cooldown and costs half, like Gojo's 0.2-second Unlimited Void (it used to spend the whole domain's 2-minute cooldown and full cost). It leaves the technique burnt out for 5 s.
+- **Full adaptation also blocks a technique's effects:** a fully adapted Mahoraga, or a player whose Mahoraga's Wheel is fully turned against a technique, only takes its (reduced) damage: no more pull from Blue or push from Red.
+- **Rika in phase 2 is calmer:** she follows Yuta and only attacks whoever he attacks, whoever attacks him and nearby curses (no more chasing animals or other mobs).
+- **Mahoraga's Wheel adapts to Infinity:** every hit Infinity stops turns your wheel; after 3 turns your hits, techniques and their effects go through it.
+
+### 🐛 Fixes
+- **Fewer Spanish texts with the game in English:** the Gestation Altar menu, Geto's menu, the ability help, stat tooltips and a few chat messages are now translated.
+- **Less chat spam when you first join a world:** instead of ~16 lines, you now get 3-5 short ones (your origin, the starter kit and your first mission) plus an on-screen notice; the full breakdown of your origin, aptitudes, species and traits is in K → Profile. Some of those lines were not translated to English and now are.
+- **Cursed Spirit Manipulation:** Crush no longer stuns through Infinity, and it now damages targets that were already stunned. The Smallpox Deity's coffin is stopped by Infinity. Night Parade of a Hundred Demons curses and the cockroaches from Kurourushi's Plague no longer count toward your summon limit (Release was blocked while they were out). Uzumaki now shows its damage on the K screen.
+- **Cursed Spirit Manipulation, quality of life:** Geto's menu lets you choose whether Uzumaki takes your weakest curses (default) or your strongest. Abilities that need a specific curse (Squid Shot, Crush, Flying Curse, Rainbow Dragon, Kurourushi, Smallpox Deity) only show up in your list when you have that curse stored. Disaster curses (Jogo, Hanami, Dagon, Mahito) can now be broken down with Uzumaki into an Extracted Technique, as Kenjaku does with Mahito. Curses you have out now count toward Pandemonium's damage. NPC Getos absorb weakened curses nearby and recall allies before they get exorcised. "Dios Viruela" is now "Dios de la Viruela" in Spanish.
+- **Cursed Spirit Manipulation, stronger:** released curses now grow with your power like shikigami; your storage has no limit and there is no limit on curses out; crouch + Release releases a batch (1 + your grade, cooldown 10 s) as many times as you want; a nearby curse shields you, taking 40% of each hit; curses rest less the higher your grade. Squid Shot now launches the Cursed Squid itself, which bursts into blinding ink on impact, instead of a beam of light. Absorb now also recalls: look at one of your curses to send it back to storage, or crouch + Absorb to recall them all; Absorb without looking at any curse opens Geto's menu.
+- Max Elephant's Flood (the player's partial manifestation) now describes itself correctly: a thin straight jet of water, not a cone.
+- Flying Curse: the manta ray was drawn more than four times too big, with the rider inside it and the camera blocked; it is now its proper size and you sit on its back.
+
+## 1.6.0 — The Arsenal Update
+
+### ✨ New
+- **Ten Shadows overhaul (feedback):**
+  - Fusions no longer take slots in your ability list: use **Shift + ability key on the base shikigami** (Divine Dogs → Totality, Toad → Winged Toads, Nue → Giant Nue, Tiger Funeral or Round Deer → Agito).
+  - **Mahoraga** no longer burns out your technique, inherits your Mahoraga's Wheel adaptations when summoned (the wheel can't be used while he's out), moves faster, smashes through blocks on the way to his target and, once fully adapted to an enemy domain, breaks it.
+  - Shikigami summoned before your domain stay out when your technique burns out (you just can't summon more until it ends); they run to catch up with you and slip back through the shadows if they get stuck.
+  - Giant Nue has a configurable size and its lightning breaks leaves, glass and other light blocks. Max Elephant aims its flood at its target; your Elephant Flood is now a thin, long jet like Piercing Blood.
 - **A calmer HUD in combat:**
   - **Status icons:** every active state (Reinforcement, RCT, Sensing, Guard, Simple Domain, the Zone, technique toggles…) now has its own icon next to its name. Prefer less text? Switch K → Settings → States to **Icons** and everyday states become small icon chips with a thin timer bar (critical ones like Burnout or an enemy domain always stay as full cards); the same page shows what each icon means.
   - **Settings screen redone:** four pages (HUD · Target · States · Effects) with one setting per row, its name on the left and its value on the button, so nothing overflows any more.
@@ -122,9 +181,13 @@
 - **Time Cell Moon Palace** (Projection's domain) damage doubled.
 
 ### 🐛 Fixes
+- **The mod crashed when joining a world** (`NoClassDefFoundError: org/ladysnake/cca/...`) in 1.4.0 and 1.5.0 when installed from CurseForge/Modrinth: Cardinal Components API was not bundled inside the jar. It is now bundled, so nothing extra has to be installed.
 - The Piercing Ox now backs off after each charge to build up speed again, instead of staying in close combat.
 - Summons scaled by an effect (the 4 Winged Toads, the Polymorphic Soul Isomer) now look as big as their hitbox (they were drawn at the scale twice).
 - Temporary blocks from techniques (Dagon's water, Eruption's volcano, Hanami's roots) no longer stay forever if the world was closed before they wore off.
+### 🌐 Translations
+- New menu titles (Stored Curses, Puppeteer's Workbench, Judgement), settings-screen help, the domain-clash tie message and cursed-tool and anvil tooltips are now translated into English.
+- **The K screen is now fully in English:** every tooltip (stats, abilities, Arts, profile, tabs) used to stay in Spanish, and so did lines cut short with «…» (Guide, Hunt, Technique), the header (origin), ability types and rarities, vows, effort, cost and fist lines, Geto's stored curses and Mahoraga's wheel. Domain, Burnout and Reverse Cursed Technique messages are translated too.
 
 ## 1.5.0 — The Awakening Update
 
