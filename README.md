@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  ✅ Current version: <b>1.6.0 — The Arsenal Update</b> · 🛠️ In development: <b>1.7.0 — The Cursed Update</b>
+  ✅ Current version: <b>1.7.0 — The Cursed Update</b> (Nov 9, 2026)
 </p>
 
 ---
@@ -41,20 +41,16 @@
 - **Origins, species and traits:** Human or Curse, latent traits, Six Eyes and the Gojo, Zen'in, Inumaki and Kamo lineages.
 - **Potential Vessel:** receive a host spirit — **Sukuna** (eat his fingers), Ryu Ishigori, Uraume, the Angel, Yorozu, Uro, Kenjaku or Kashimo — and use their technique… until they take over.
 - **Seven bosses** that fight in three phases with announced signature moves, most with their own structure and Guardian version: Satoru Gojo, Ryomen Sukuna, Suguru Geto, Kenjaku, Toji Fushiguro, Yuta Okkotsu and Awakened Maki Zen'in.
-- **Disaster curses** (Jogo, Hanami, Dagon, Mahito) and **40 cursed spirits** with their own models, plus **sorcerer NPCs** that use the same techniques as you.
+- **Disaster curses** (Jogo, Hanami, Dagon, Mahito) and **44 cursed spirits** with their own models and temperaments — Special Grade ones with **their own domains** — plus **sorcerer NPCs** that use the same techniques as you.
+- **A cursed world:** six **cursed biomes**, curse nests and guarded places (Sugisawa High School, Yasohachi Bridge, Eishu Reformatory, the Nine Foxes Shrine, the disaster curses' lairs).
+- **Curse gestation:** grow a curse you've exorcised at a Gestation Altar fed by CE Tanks and keep it as your **companion**.
 - **Weapons from the series in 3D** at real-life size (Maki's naginata, Megumi's Black Sword, Mai's revolver, Nobara's nails…), cursed tools, copper and amethyst gear, cursed food and rituals.
 - **Your own interface:** HUD, status cards and the Sorcerer Screen (**K**) with every ability's numbers. English and Spanish.
 
 👉 Everything explained in the **[Wiki](https://github.com/Megambit-mc/cursed-awakening/wiki)**.
 
-## 🛠️ Coming in 1.7 — The Cursed Update
-In development, subject to change:
-- **Curse gestation:** grow a small curse you've exorcised at a Gestation Altar fed by CE Tanks, and keep it as a **companion**.
-- **Special Grade curses get their own domains**, decorated inside.
-- **Six cursed biomes**, curse nests and guarded places: Sugisawa High School, Yasohachi Bridge, Eishu Reformatory, the Nine Foxes Shrine and the disaster curses' lairs.
-- **More curses everywhere**, Maki Zen'in in the world and a stronger Cursed Spirit Manipulation.
-
-See [Versions](https://github.com/Megambit-mc/cursed-awakening/wiki/Versions) and the [changelog](CHANGELOG.md).
+## 🆕 What's new in 1.7 — The Cursed Update
+Curse gestation and companions, Special Grade curses with their own domains, six cursed biomes with nests and guarded places, four canon curses that were missing, swarms that grow with your grade, a reworked energy Heavenly Restriction with new Body Arts and a stronger Cursed Spirit Manipulation. See [Versions](https://github.com/Megambit-mc/cursed-awakening/wiki/Versions) and the [changelog](CHANGELOG.md).
 
 ## 📥 Download and install
 

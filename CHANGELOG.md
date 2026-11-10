@@ -1,6 +1,8 @@
 # Changelog
 
-## 1.7.0 — The Cursed Update (in development)
+## 1.7.0 — The Cursed Update
+
+*Released November 9, 2026 · CurseForge.*
 
 ### ✨ New
 - **Swarms grow with your grade:** Fly Heads, Cursed Moths, Crawling Curses, cockroaches, squids, centipedes, Grade 4 Cursed Spirits and Floating Eyes come alone or in small groups for beginners, and in swarms of up to 12-16 for Grade 1 and Special Grade sorcerers.
@@ -58,6 +60,11 @@
   - **Disaster lairs**, where the four Disaster Curses can now awaken besides their old spots: **Jogo's crater** in the Volcanic Slopes, **Hanami's hollow tree** in the Primeval Forest, **Dagon's sunken ruin** in the Disaster Reef and **Mahito's sewers** underground (at any time of day).
 - **Maki Zen'in now lives in the world:** she can appear during the day near Special Grade players (instead of Gojo, sometimes), and she guards her own structure, the **Zen'in Clan Estate**: a walled compound with a main hall, a raked gravel courtyard, a pond, a training ground and the clan's **armory** (with a chest of cursed tools). Wake her at the altar as a Special Grade sorcerer; beat her for a guardian chest full of Zen'in weapons.
 ### ⚖️ Balance
+- **Grade 4 and Grade 3 curses:** no longer have damage toughness (that is for Grade 2 and up), flying ones stay at most 4 blocks above the ground (but still climb to reach you if you stand on something tall), and what they shoot or cast from afar (spit, gaze, tongue, ink jet) comes at most every 10 seconds.
+- **Heavenly Restriction (energy) early game:** born with 30 Physical (was 60) and the **Celestial Body grows with your grade** (×0.4 ungraded … ×1.2 at Special Grade). Before, with a cursed tool it could kill a Special Grade curse at level 1.
+- **Easier first minutes:** curses no longer get the extra low-grade toughness meant for fights between sorcerers, and the generic Grade 4 curse has 45 health (was 66). A new player now needs about 15 reinforced punches (7 with a reinforced stone sword) instead of 46.
+- **Boss altars wake up on right-click:** the guardian of a boss structure no longer appears just because a Special Grade sorcerer walks close; right-click the altar when you're ready. The altar's message shows once when you enter its area and once when you leave, instead of repeating every few seconds.
+- **Structure guardians wake up for the right sorcerer:** curses that guard a structure (like Tamamo-no-Mae in the Nine Foxes Shrine) only appear when a player of a high enough grade is nearby, using the same rule as natural curse spawns. A newcomer can explore a Special Grade's shrine without waking it.
 - **Heavenly Restriction Power** now matches a balanced sorcerer of your level and grade (it used to be your Physical, which let you one-shot players of your level). *Awakening* gives +25 Power instead.
 - **Grade-based swarms:** the extra curses that join a swarm because of your grade give half EXP and drop no Cursed Residue.
 - **Curses:** the Hostage Curse is tougher and slower to match its size; the Cursed Ray has Grade 3 stats; the head-necklace giant is now about 6.5 blocks tall and much tougher.

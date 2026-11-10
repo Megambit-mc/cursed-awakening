@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  ✅ Versión actual: <b>1.6.0 — The Arsenal Update</b> · 🛠️ En desarrollo: <b>1.7.0 — The Cursed Update</b>
+  ✅ Versión actual: <b>1.7.0 — The Cursed Update</b> (9 nov 2026)
 </p>
 
 ---
@@ -41,20 +41,16 @@
 - **Orígenes, especies y rasgos:** Humano o Maldición, rasgos latentes, Seis Ojos y los linajes Gojo, Zenin, Inumaki y Kamo.
 - **Vasija Potencial:** recibe a un espíritu anfitrión —**Sukuna** (comiendo sus dedos), Ryu Ishigori, Uraume, el Ángel, Yorozu, Uro, Kenjaku o Kashimo— y usa su técnica… hasta que toma el control.
 - **Siete jefes** que pelean en tres fases con ataques firma anunciados, casi todos con su estructura y su versión guardián: Satoru Gojo, Ryomen Sukuna, Suguru Geto, Kenjaku, Toji Fushiguro, Yuta Okkotsu y Maki Zen'in despertada.
-- **Maldiciones catástrofe** (Jogo, Hanami, Dagon, Mahito) y **40 espíritus malditos** con modelo propio, además de **hechiceros NPC** que usan las mismas técnicas que tú.
+- **Maldiciones catástrofe** (Jogo, Hanami, Dagon, Mahito) y **44 espíritus malditos** con modelo y temperamento propios —los de Grado Especial, con **su propio dominio**—, además de **hechiceros NPC** que usan las mismas técnicas que tú.
+- **Un mundo maldito:** seis **biomas malditos**, nidos de maldiciones y lugares guardados (la Escuela Sugisawa, el Puente Yasohachi, el Reformatorio Eishū, el Santuario de los Nueve Zorros, las guaridas de las catástrofes).
+- **Gestación de maldiciones:** cría una maldición que ya exorcizaste en un Altar de Gestación alimentado por Tanques de CE y quédatela como **acompañante**.
 - **Armas de la serie en 3D** a escala real (la naginata de Maki, la Espada Negra de Megumi, el revólver de Mai, los clavos de Nobara…), herramientas malditas, equipo de cobre y amatista, comida maldita y rituales.
 - **Interfaz propia:** HUD, tarjetas de estado y la Pantalla del Hechicero (**K**) con las cifras de cada habilidad. En español e inglés.
 
 👉 Todo explicado en la **[Wiki](https://github.com/Megambit-mc/cursed-awakening/wiki/Inicio)**.
 
-## 🛠️ Llega en la 1.7 — The Cursed Update
-En desarrollo, puede cambiar:
-- **Gestación de maldiciones:** cría una maldición pequeña que ya exorcizaste en un Altar de Gestación alimentado por Tanques de CE, y quédatela como **acompañante**.
-- **Las maldiciones de Grado Especial tienen su propio dominio**, con decorado dentro.
-- **Seis biomas malditos**, nidos de maldiciones y lugares guardados: la Escuela Sugisawa, el Puente Yasohachi, el Reformatorio Eishū, el Santuario de los Nueve Zorros y las guaridas de las catástrofes.
-- **Más maldiciones en todo el mundo**, Maki Zen'in en el mundo y una Manipulación de Espíritus Malditos más fuerte.
-
-Ver [Versiones](https://github.com/Megambit-mc/cursed-awakening/wiki/Versiones) y el [changelog](CHANGELOG.md).
+## 🆕 Novedades de la 1.7 — The Cursed Update
+Gestación de maldiciones y acompañantes, maldiciones de Grado Especial con su propio dominio, seis biomas malditos con nidos y lugares guardados, cuatro maldiciones de la serie que faltaban, enjambres que crecen con tu grado, la Restricción Celestial de energía rehecha con Artes del cuerpo nuevas y una Manipulación de Espíritus Malditos más fuerte. Ver [Versiones](https://github.com/Megambit-mc/cursed-awakening/wiki/Versiones) y el [changelog](CHANGELOG.md).
 
 ## 📥 Descarga e instalación
 
