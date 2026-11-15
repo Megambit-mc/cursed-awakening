@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  ✅ Versión actual: <b>1.7.0 — The Cursed Update</b> (9 nov 2026)
+  ✅ Versión actual: <b>1.7.1 — The Bestiary Update</b> (15 nov 2026)
 </p>
 
 ---
@@ -35,22 +35,23 @@
 ## ✨ Qué trae
 
 - **30 técnicas innatas**, cada una con su **Técnica Máxima** y su **Expansión de Dominio**: Ilimitado, Santuario, Diez Sombras (con Mahoraga), Discurso Maldito, Proporción 7:3, Manipulación de Sangre, Copia (Yuta y Rika), Manipulación de Espíritus Malditos, Técnica del Juez, Muñeco de Paja, Boogie Woogie, Proyección, Apuesta Pasiva Mortal, Construcción, Furia Estelar y más.
-- **Dominios reales:** una cúpula de bloques de verdad con interior propio, golpe garantizado, **choque de dominios**, barreras que se rompen y defensas (Dominio Simple, Canasta de Mimbre Hueca, Emoción de Pétalos Caídos, Amplificación de Dominio). El terreno siempre se restaura.
+- **Dominios reales:** una cúpula de bloques de verdad con interior propio, golpe garantizado, **choque de dominios**, barreras que se agrietan y se rompen, y defensas como en el canon (Dominio Simple, Canasta de Mimbre Hueca, Emoción de Pétalos Caídos, Amplificación de Dominio). El terreno siempre se restaura.
 - **Progresión RPG en tres ejes:** nivel y **9 stats** que repartes tú, **Maestría** de la técnica (M1–M10) que sube al usarla y **Grado** (G4 → Especial) que desbloquea habilidades.
-- **25 Artes Jujutsu:** Reforzamiento, Destello Negro y la Zona, Técnica Inversa, Votos Vinculantes, Velo, Sensing, Guardia de CE… con agotamiento y **daño cerebral** como consecuencias reales.
+- **36 Artes Jujutsu:** Reforzamiento, Destello Negro y la Zona, Técnica Inversa, Votos Vinculantes, Velo, Sensing, Guardia de CE… con agotamiento y **daño cerebral** como consecuencias reales.
 - **Orígenes, especies y rasgos:** Humano o Maldición, rasgos latentes, Seis Ojos y los linajes Gojo, Zenin, Inumaki y Kamo.
 - **Vasija Potencial:** recibe a un espíritu anfitrión —**Sukuna** (comiendo sus dedos), Ryu Ishigori, Uraume, el Ángel, Yorozu, Uro, Kenjaku o Kashimo— y usa su técnica… hasta que toma el control.
 - **Siete jefes** que pelean en tres fases con ataques firma anunciados, casi todos con su estructura y su versión guardián: Satoru Gojo, Ryomen Sukuna, Suguru Geto, Kenjaku, Toji Fushiguro, Yuta Okkotsu y Maki Zen'in despertada.
-- **Maldiciones catástrofe** (Jogo, Hanami, Dagon, Mahito) y **44 espíritus malditos** con modelo y temperamento propios —los de Grado Especial, con **su propio dominio**—, además de **hechiceros NPC** que usan las mismas técnicas que tú.
-- **Un mundo maldito:** seis **biomas malditos**, nidos de maldiciones y lugares guardados (la Escuela Sugisawa, el Puente Yasohachi, el Reformatorio Eishū, el Santuario de los Nueve Zorros, las guaridas de las catástrofes).
+- **Maldiciones catástrofe** (Jogo, Hanami, Dagon, Mahito) y **95 espíritus malditos** con modelo, comportamiento, huevo de aparición y ficha de **bestiario** propios —los de Grado Especial, con **su propio dominio**—, además de **hechiceros NPC** que usan las mismas técnicas que tú.
+- **Un mundo maldito:** seis **biomas malditos**, nidos de maldiciones y lugares guardados (la Escuela Sugisawa de 3 plantas, el Puente Yasohachi, el Reformatorio Eishū, el cementerio de un templo, el Santuario de los Nueve Zorros, las guaridas de las catástrofes).
+- **Calamidades:** Sukuna corta edificios enteros, Uraume congela el campo de batalla y el Agujero Negro de Yuki se lo traga todo.
 - **Gestación de maldiciones:** cría una maldición que ya exorcizaste en un Altar de Gestación alimentado por Tanques de CE y quédatela como **acompañante**.
 - **Armas de la serie en 3D** a escala real (la naginata de Maki, la Espada Negra de Megumi, el revólver de Mai, los clavos de Nobara…), herramientas malditas, equipo de cobre y amatista, comida maldita y rituales.
-- **Interfaz propia:** HUD, tarjetas de estado y la Pantalla del Hechicero (**K**) con las cifras de cada habilidad. En español e inglés.
+- **Imagen y interfaz propias:** ni una partícula de Minecraft, efectos de tinta y color para cada técnica, HUD, la Pantalla del Hechicero (**K**) con las cifras de cada habilidad y una pantalla propia para cada menú, con alto contraste y tamaño ajustable. En español e inglés.
 
 👉 Todo explicado en la **[Wiki](https://github.com/Megambit-mc/cursed-awakening/wiki/Inicio)**.
 
-## 🆕 Novedades de la 1.7 — The Cursed Update
-Gestación de maldiciones y acompañantes, maldiciones de Grado Especial con su propio dominio, seis biomas malditos con nidos y lugares guardados, cuatro maldiciones de la serie que faltaban, enjambres que crecen con tu grado, la Restricción Celestial de energía rehecha con Artes del cuerpo nuevas y una Manipulación de Espíritus Malditos más fuerte. Ver [Versiones](https://github.com/Megambit-mc/cursed-awakening/wiki/Versiones) y el [changelog](CHANGELOG.md).
+## 🆕 Novedades de la 1.7.1 — The Bestiary Update
+**50 maldiciones nuevas** del anime y de los miedos humanos con su bestiario, un mod sin partículas de Minecraft, pantallas nuevas para cada menú, destrucción a escala de calamidad para Sukuna, Yuki, Uraume y Jogo, una Furia Estelar rehecha, un sistema de poder más sencillo con la **Defensa** a la vista, defensas contra dominios como en el canon, los lugares de la historia rehechos, el muñeco de entrenamiento y un servidor mucho más ligero. Ver [Versiones](https://github.com/Megambit-mc/cursed-awakening/wiki/Versiones) y el [changelog](CHANGELOG.md).
 
 ## 📥 Descarga e instalación
 
@@ -67,7 +68,7 @@ Gestación de maldiciones y acompañantes, maldiciones de Grado Especial con su 
 2. Copia **Fabric API** y el `.jar` del mod en la carpeta `mods`.
 3. En servidores, el mod va **en el servidor y en todos los clientes**.
 
-Cardinal Components API y Player Animation Library van incluidos. [Mod Menu](https://modrinth.com/mod/modmenu) y [EMI](https://modrinth.com/mod/emi) son opcionales.
+Cardinal Components API, Player Animation Library y Biolith van incluidos. [Mod Menu](https://modrinth.com/mod/modmenu), [EMI](https://modrinth.com/mod/emi) y [REI](https://modrinth.com/mod/rei) son opcionales.
 
 ## 🎮 Controles
 
@@ -93,7 +94,7 @@ Más en **[Controles](https://github.com/Megambit-mc/cursed-awakening/wiki/Contr
 
 - `/gamerule jjkTerrainDamage false` desactiva toda la destrucción de terreno de las técnicas.
 - Todo el balance está en `config/jjk.json` (se crea al arrancar); `/ce config reload` lo recarga.
-- Todos los comandos `/ce` (solo operadores) están en **[Comandos](https://github.com/Megambit-mc/cursed-awakening/wiki/Comandos)**.
+- Todos los comandos `/ce` (solo operadores; aceptan un jugador al final, como `/ce grade set 5 Steve`) están en **[Comandos](https://github.com/Megambit-mc/cursed-awakening/wiki/Comandos)**.
 - Más en la **[Guía para servidores](https://github.com/Megambit-mc/cursed-awakening/wiki/Guia-para-servidores)**.
 
 ## 🐛 Errores, ideas y arte

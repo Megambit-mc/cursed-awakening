@@ -20,7 +20,7 @@
 </p>
 
 <p align="center">
-  ✅ Current version: <b>1.7.0 — The Cursed Update</b> (Nov 9, 2026)
+  ✅ Current version: <b>1.7.1 — The Bestiary Update</b> (Nov 15, 2026)
 </p>
 
 ---
@@ -35,22 +35,23 @@
 ## ✨ Features
 
 - **30 innate techniques**, each with its own **Maximum Technique** and **Domain Expansion**: Limitless, Shrine, Ten Shadows (Mahoraga included), Cursed Speech, Ratio, Blood Manipulation, Copy (Yuta and Rika), Cursed Spirit Manipulation, Judgeman, Straw Doll, Boogie Woogie, Projection, Idle Death Gamble, Construction, Star Rage and more.
-- **Real domains:** a dome built from actual blocks with its own interior, sure-hit effects, **domain clashes**, barriers you can break and defenses (Simple Domain, Hollow Wicker Basket, Falling Blossom Emotion, Domain Amplification). The terrain is always restored.
+- **Real domains:** a dome built from actual blocks with its own interior, sure-hit effects, **domain clashes**, barriers that crack and shatter, and source-accurate defenses (Simple Domain, Hollow Wicker Basket, Falling Blossom Emotion, Domain Amplification). The terrain is always restored.
 - **RPG progression on three axes:** level and **9 stats** you spend yourself, **Technique Mastery** (M1–M10) that grows with use, and **Grade** (G4 → Special) that unlocks abilities.
-- **25 Jujutsu Arts:** Reinforcement, Black Flash and the Zone, Reverse Cursed Technique, Binding Vows, Veil, Sensing, CE Guard… with burnout and **brain damage** as real consequences.
+- **36 Jujutsu Arts:** Reinforcement, Black Flash and the Zone, Reverse Cursed Technique, Binding Vows, Veil, Sensing, CE Guard… with burnout and **brain damage** as real consequences.
 - **Origins, species and traits:** Human or Curse, latent traits, Six Eyes and the Gojo, Zen'in, Inumaki and Kamo lineages.
 - **Potential Vessel:** receive a host spirit — **Sukuna** (eat his fingers), Ryu Ishigori, Uraume, the Angel, Yorozu, Uro, Kenjaku or Kashimo — and use their technique… until they take over.
 - **Seven bosses** that fight in three phases with announced signature moves, most with their own structure and Guardian version: Satoru Gojo, Ryomen Sukuna, Suguru Geto, Kenjaku, Toji Fushiguro, Yuta Okkotsu and Awakened Maki Zen'in.
-- **Disaster curses** (Jogo, Hanami, Dagon, Mahito) and **44 cursed spirits** with their own models and temperaments — Special Grade ones with **their own domains** — plus **sorcerer NPCs** that use the same techniques as you.
-- **A cursed world:** six **cursed biomes**, curse nests and guarded places (Sugisawa High School, Yasohachi Bridge, Eishu Reformatory, the Nine Foxes Shrine, the disaster curses' lairs).
+- **Disaster curses** (Jogo, Hanami, Dagon, Mahito) and **95 cursed spirits**, each with its own model, behaviour, spawn egg and **bestiary** entry — Special Grade ones with **their own domains** — plus **sorcerer NPCs** that use the same techniques as you.
+- **A cursed world:** six **cursed biomes**, curse nests and guarded places (a 3-storey Sugisawa High School, Yasohachi Bridge, Eishu Reformatory, a temple graveyard, the Nine Foxes Shrine, the disaster curses' lairs).
+- **Calamities:** Sukuna slices through whole buildings, Uraume freezes the battlefield and Yuki's Black Hole swallows everything.
 - **Curse gestation:** grow a curse you've exorcised at a Gestation Altar fed by CE Tanks and keep it as your **companion**.
 - **Weapons from the series in 3D** at real-life size (Maki's naginata, Megumi's Black Sword, Mai's revolver, Nobara's nails…), cursed tools, copper and amethyst gear, cursed food and rituals.
-- **Your own interface:** HUD, status cards and the Sorcerer Screen (**K**) with every ability's numbers. English and Spanish.
+- **Its own look and interface:** not a single Minecraft particle, ink-and-colour effects for every technique, a HUD, the Sorcerer Screen (**K**) with every ability's numbers and its own screen for every menu, with high contrast and adjustable size. English and Spanish.
 
 👉 Everything explained in the **[Wiki](https://github.com/Megambit-mc/cursed-awakening/wiki)**.
 
-## 🆕 What's new in 1.7 — The Cursed Update
-Curse gestation and companions, Special Grade curses with their own domains, six cursed biomes with nests and guarded places, four canon curses that were missing, swarms that grow with your grade, a reworked energy Heavenly Restriction with new Body Arts and a stronger Cursed Spirit Manipulation. See [Versions](https://github.com/Megambit-mc/cursed-awakening/wiki/Versions) and the [changelog](CHANGELOG.md).
+## 🆕 What's new in 1.7.1 — The Bestiary Update
+**50 new curses** from the anime and from human fears with their bestiary, a mod with no Minecraft particles, new screens for every menu, calamity-scale destruction for Sukuna, Yuki, Uraume and Jogo, a reworked Star Rage, a simpler power system with visible **Defense**, source-accurate anti-domain techniques, rebuilt story locations, the Training Dummy and a much lighter server. See [Versions](https://github.com/Megambit-mc/cursed-awakening/wiki/Versions) and the [changelog](CHANGELOG.md).
 
 ## 📥 Download and install
 
@@ -67,7 +68,7 @@ Curse gestation and companions, Special Grade curses with their own domains, six
 2. Put **Fabric API** and the mod's `.jar` in your `mods` folder.
 3. On servers, the mod goes **on the server and on every client**.
 
-Cardinal Components API and Player Animation Library are included in the mod. [Mod Menu](https://modrinth.com/mod/modmenu) and [EMI](https://modrinth.com/mod/emi) are optional.
+Cardinal Components API, Player Animation Library and Biolith are included in the mod. [Mod Menu](https://modrinth.com/mod/modmenu), [EMI](https://modrinth.com/mod/emi) and [REI](https://modrinth.com/mod/rei) are optional.
 
 ## 🎮 Controls
 
@@ -93,7 +94,7 @@ More in **[Controls](https://github.com/Megambit-mc/cursed-awakening/wiki/Contro
 
 - `/gamerule jjkTerrainDamage false` turns off all terrain damage from techniques.
 - Every balance value is in `config/jjk.json` (created on first start); `/ce config reload` reloads it.
-- Every `/ce` command (operators only) is in **[Commands](https://github.com/Megambit-mc/cursed-awakening/wiki/Commands)**.
+- Every `/ce` command (operators only; they accept a player at the end, like `/ce grade set 5 Steve`) is in **[Commands](https://github.com/Megambit-mc/cursed-awakening/wiki/Commands)**.
 - More in the **[Server guide](https://github.com/Megambit-mc/cursed-awakening/wiki/Server-Guide)**.
 
 ## 🐛 Bugs, ideas and art

@@ -11,7 +11,7 @@ Modelos de terceros (descargados de Sketchfab, convertidos al formato del mod). 
 | ~~Buey Perforante (shikigami)~~ | ~~buffalo-minecraft~~ | — | **ya no se usa**: modelo propio desde el 1 nov (`tools/arte/`) |
 | ~~Elefante Máximo (shikigami)~~ | ~~elephant-minecraft~~ | — | **ya no se usa**: modelo propio desde el 1 nov (`tools/arte/`) |
 | ~~Ciervo Redondo (shikigami)~~ | ~~irish-elk-minecraft-mob~~ | — | **ya no se usa**: modelo propio desde el 1 nov (`tools/arte/`) |
-| Mahoraga (shikigami) y su rueda (`fx_mahoraga_wheel`) | `mahoraga.glb` del autor, convertido con `tools/mahoraga_glb/` | Megambit | propio (la Espada de la Extinción, inventada, la añadió la conversión) |
+| Mahoraga (shikigami) y su rueda (`fx_mahoraga_wheel`) | `mahoraga.glb` del autor, convertido con `tools/mahoraga_glb/` | Megambit | propio (la Espada de Exterminio, canon, la añadió la conversión) |
 
 **Texturas de objetos y armaduras:** las de los objetos añadidos del 22 al 24 oct (cobre y amatista, comida maldita, rituales, equipo y pergaminos) y las capas de armadura de cobre, uniforme, ropa de renegado y coraza maldita eran recoloreados de vanilla; desde el 31 oct son **propias**, dibujadas por código con `tools/arte/gen_objetos.py` (igual que los 6 objetos que usaban textura vanilla). Las texturas de bloque de `textures/block/` (altar, tanque de CE, geoda, pararrayos, mesa del titiritero, marca de tiza, velo) también son propias desde el 31 oct (`tools/arte/gen_bloques.py`).
 
